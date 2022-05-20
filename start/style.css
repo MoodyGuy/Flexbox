@@ -4,7 +4,12 @@
     width: 200px;
     height: 100%;
     display: flex;
-    flex-direction: row;
+  flex-direction: column;
+}
+
+.navbar > a {
+
+    padding: 1px; 
 }
 
 
@@ -21,12 +26,6 @@ div {
     border-radius: 5%;
 }
 
-figure { 
-
-    background-color: grey;
-    padding: 2px;
-
-}
 
 a:hover  {
 
@@ -36,5 +35,12 @@ color: #2b2bb2;
 .names {
 
     text-align: center;
+}
+
+.placeholder {
+    border-radius: none;
+    background-color: grey;
+    max-width: 5rem;
+    max-height: 5rem;
 }
 
