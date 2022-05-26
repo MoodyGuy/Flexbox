@@ -1,28 +1,66 @@
 
-body {
-
-   
-    display: flex;
-  flex-direction: column;
+* {
+    padding: 0;
+    margin: 0;
 }
 
-.navbar > a {
 
-    padding: 1px; 
+body {
+
+   height: 100vw;
+   
+  
+}
+
+.navbar {
+min-height: 80%;
+
+
+
+}
+
+li {
+
+    list-style: none;
+    width: 10rem;
+    height: 8rem;
+    background-color:  greenyellow;
+    border-radius: 5%;
+
+}
+
+
+
+.placeholder {
+    width: 10rem;
+    height: 8rem;
+    border: 1px solid greenyellow;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo_pl {
 
-    width: 5px;
-    height: 5px;
+   width: 5rem;
+   height: 5rem;
+    border-radius: 50px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 
 a {
 
+    
+
     color: #2b2b2b;
-    border: 1px solid greenyellow;
-    border-radius: 5%;
+    padding: 3rem;
+  
 }
 
 
@@ -36,10 +74,5 @@ color: #2b2bb2;
     text-align: center;
 }
 
-.placeholder {
-    border-radius: none;
-    background-color: grey;
-    max-width: 5rem;
-    max-height: 5rem;
-}
+
 
