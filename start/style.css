@@ -26,6 +26,7 @@ li {
     height: 8rem;
     background-color:  greenyellow;
     border-radius: 5%;
+    font-size: 12px;
 
 }
 
@@ -69,9 +70,32 @@ a:hover  {
 color: #2b2bb2;
 }
 
-.names {
 
-    text-align: center;
+
+.profile {
+    width: 10rem;
+    height: 3rem;
+    border: 1px solid greenyellow;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+
+}
+
+.profile span img {
+
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.profile span {
+
+    max-width: auto;
+    max-width: auto;
+}
+
+.profile p {
+    font-size: small;
 }
 
 
